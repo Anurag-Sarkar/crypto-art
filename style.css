@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    color: white;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(43, 43, 43);
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    align-items: center;
+    height: 60px;
+    padding: 0px 50px;
+    margin-top: 40px;
+    color:white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#one,#two,#three{
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+#main h4{
+    font-weight: 400;
+    padding: 0px 40px;
+
+}
+#hero{
+    position: absolute;
+    bottom: 0%;
+    height: 80%;
+    width: 64%;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+#top{
+    position: absolute;
+    top: 3%;
+    transform: translate(-50%,0%);
+    left:50%;
+    font-size: 20px;
+    letter-spacing: 3px;
+    background-color: transparent;
+}
+#mid{
+    transform: translate(-50%,0%);
+    position: absolute;
+    background-color: transparent;
+    left:50%;
+    top: 10%;
+    font-size: 50px;
+}
+#left{
+
+    position: absolute;
+    left: 4%;
+    text-align: right;
+    line-height: 23px;
+    bottom: 30%;
+    font-size: 20px;
+    background-color: transparent;
+}
+#right{
+    font-size: 20px;
+    background-color: transparent;
+    bottom: 20%;
+    line-height: 23px;
+    position: absolute;
+    right: 3%;
+    text-align: left;
+}
+img{
+    z-index: -1;
+    bottom: -60%;
+    left:50%;
+    transform: translate(-50%,0%);
+    position: absolute;
+    height: 900px;
+    border-radius: 300px;
+}
+#border{
+    position: absolute;
+    left: 15%;
+    top: -5%;
+    border-radius: 200px;
+    width: 400px;
+    height: 600px;
+    border: 1px solid white;
+}
+#circle{
+    left: 2%;
+    top: 2%;
+    z-index: -3;
+    border-radius: 50%;
+    border: 1px solid red;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+
+}
+#green{
+    background-color: rgb(10, 180, 109);
+    z-index: -2;
+    bottom: -60%;
+    left:55%;
+    transform: translate(-50%,0%);
+    position: absolute;
+    height: 700px;
+    width: 600px;
+    border-radius: 200px;
+    
+}
+#mid h1 span{
+    color: rgb(34, 69, 224);
+    font-size: 100px;
+}
+#a{
+    color: rgb(175, 53, 53);
+}
+#b{
+    color: rgb(53, 53, 189);
+}
+#c{
+    color:rgb(52, 175, 52);
+}
+i{
+    font-size: 20px;
+    padding-right: 20px;
+}
